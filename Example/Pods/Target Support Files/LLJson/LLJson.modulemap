@@ -1,6 +1,0 @@
-framework module LLJson {
-  umbrella header "LLJson-umbrella.h"
-
-  export *
-  module * { export * }
-}

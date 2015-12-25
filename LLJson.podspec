@@ -8,14 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = "LLJson"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "JSON数据的解析与封装"
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+ 
   s.description      = <<-DESC
   LLJSON是采用 NSJSONSerialization 对数据进行封装成JSON格式以及JSON数据解析，封装速度以及解析速度都比较快。欢迎大家使用并提出建议。
                        DESC
@@ -30,12 +25,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
+  s.source_files = 'lib/*'
+  #s.resource_bundles = {
     'LLJson' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'lib/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
