@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LLJson_Example', :exclusive => true do
+  pod "LLJson", :path => "../"
+end
+
+target 'LLJson_Tests', :exclusive => true do
+  pod "LLJson", :path => "../"
+
+  
+end

@@ -1,0 +1,25 @@
+{
+  "name": "LLJson",
+  "version": "0.1.0",
+  "summary": "A short description of LLJson.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LLJson",
+  "license": "MIT",
+  "authors": {
+    "proflli": "proflli@aliyun.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LLJson.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "LLJson": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
